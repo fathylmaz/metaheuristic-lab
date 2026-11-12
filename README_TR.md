@@ -1,5 +1,10 @@
 # Metaheuristic Lab — Meta-sezgisel Optimizasyon Araştırma Laboratuvarı
 
+[![CI](https://github.com/fathylmaz/metaheuristic-lab/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/fathylmaz/metaheuristic-lab/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/fathylmaz/metaheuristic-lab?label=release)](https://github.com/fathylmaz/metaheuristic-lab/releases/latest)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+
 [Ana README](README.md) · **Türkçe** · [English](README_EN.md)
 
 **Metaheuristic Lab**, meta-sezgisel optimizasyon algoritmalarını gerçek hesaplama yörüngeleriyle görselleştiren, aynı değerlendirme bütçesiyle karşılaştıran, tekrarlanabilir deneyler yürüten ve sonuçları bilimsel açıdan denetleyen yerel web uygulamasıdır.

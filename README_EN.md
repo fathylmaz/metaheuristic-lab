@@ -1,5 +1,10 @@
 # Metaheuristic Lab — Research and Educational Optimization Workspace
 
+[![CI](https://github.com/fathylmaz/metaheuristic-lab/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/fathylmaz/metaheuristic-lab/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/fathylmaz/metaheuristic-lab?label=release)](https://github.com/fathylmaz/metaheuristic-lab/releases/latest)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+
 [Main README](README.md) · [Türkçe](README_TR.md) · **English**
 
 
@@ -71,7 +76,7 @@ npm.cmd run report:bundle
 npm.cmd run test:e2e
 ```
 
-Windows v3.0.0 verification passed **547/547 backend tests, 12/12 Playwright E2E scenarios**, and a TypeScript/Vite production build. Local Docker verification reported **API 3.0.0 and two healthy containers**. GitHub Actions results must still be verified after the repository is published. See [release checklist](docs/RELEASE_CHECKLIST.md).
+Windows v3.0.0 verification passed **547/547 backend tests, 12/12 Playwright E2E scenarios**, and a TypeScript/Vite production build. Local Docker verification reported **API 3.0.0 and two healthy containers**. GitHub Actions successfully verified the backend, frontend, browser-smoke, and container-smoke jobs. See [release checklist](docs/RELEASE_CHECKLIST.md).
 
 ### Engineering notes
 

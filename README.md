@@ -1,5 +1,10 @@
 # Metaheuristic Lab
 
+[![CI](https://github.com/fathylmaz/metaheuristic-lab/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/fathylmaz/metaheuristic-lab/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/fathylmaz/metaheuristic-lab?label=release)](https://github.com/fathylmaz/metaheuristic-lab/releases/latest)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+
 **A research-oriented workspace for visualizing and evaluating metaheuristic optimization algorithms.**
 
 **Language:** [English](README_EN.md) · [Türkçe](README_TR.md)
