@@ -21,14 +21,14 @@
 
 ## Verified on Windows — 12 November 2026
 
-The user executed the v3.0.0 Windows release checks: **547/547 Pytest backend tests, 30/30 API contract checks (a subset of the backend suite), 12/12 Playwright E2E tests, and a successful TypeScript/Vite build.** The Docker verification reported **API 3.0.0** and **healthy** API/web containers with local Nginx proxy checks. A `StarletteDeprecationWarning` appeared but did not fail the suite. Public GitHub Actions execution remains **unverified** until the repository is published.
+The user executed the v3.0.0 Windows release checks: **547/547 Pytest backend tests, 30/30 API contract checks (a subset of the backend suite), 12/12 Playwright E2E tests, and a successful TypeScript/Vite build.** The Docker verification reported **API 3.0.0** and **healthy** API/web containers with local Nginx proxy checks. A `StarletteDeprecationWarning` appeared but did not fail the suite. Public GitHub Actions completed successfully: **backend, frontend, browser-smoke, and container-smoke** all passed.
 
-A curated gallery of **23 real application captures** has been supplied and linked from both READMEs: [`docs/SCREENSHOT_GALLERY.md`](SCREENSHOT_GALLERY.md). The visible screenshots are provided for owner review; no public publishing action has occurred.
+A curated gallery of **23 real application captures** has been supplied and linked from both READMEs: [`docs/SCREENSHOT_GALLERY.md`](SCREENSHOT_GALLERY.md). The 23 real screenshots are published in the public repository and linked from the README gallery.
 
 ## Evidence and remaining actions
 
-Windows release test outputs have been provided and reviewed as described above. CI jobs can only be claimed successful after execution on the actual GitHub repository.
+Windows release test outputs have been provided and reviewed as described above. All four CI jobs have passed on the published GitHub repository.
 
-Not done automatically: repository creation/push, public release, license selection, uploading local experimental records, publishing a LinkedIn post, or making screenshots of a non-running version.
+Completed: public repository, initial push, MIT license and GitHub CI. Pending: GitHub Release and LinkedIn publication. Local experimental records were not uploaded.
 
 See `docs/RELEASE_CHECKLIST.md` for the exact closing procedure.
