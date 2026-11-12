@@ -37,4 +37,4 @@ Bu liste kasıtlı olarak **yerel testler başarılı** ile **GitHub yayını ta
 - [ ] Gerçek v3 ekran görüntüleri, sunum ve README bağlantılarını LinkedIn proje kaydına ekle.
 - [ ] CV maddelerinden doğrulanabilir tek/iki cümle seç; gerçek GitHub repo URL'sini koy.
 
-**Yayın durumu:** ZIP ve belgeler hazırlandığında GitHub deposuna otomatik push, herkese açık yayın, LinkedIn gönderisi veya lisans seçimi yapılmış sayılmaz.
+**Yay?n durumu:** GitHub deposu herkese a??k, MIT lisans? eklendi ve d?rt CI g?revi ba?ar?l?. Resmi v3.0.0 Release ve LinkedIn yay?n? bekliyor.
