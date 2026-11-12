@@ -1,0 +1,36 @@
+# LOCAL-ONLY deployment: no authentication, do not expose ports publicly.
+services:
+  api:
+    build:
+      context: ./backend
+    init: true
+    environment:
+      METAHEURISTIC_DATA_DIR: /app/data
+    volumes:
+      - ./backend/data:/app/data
+    # API is accessed through Nginx; intentionally no published host port.
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/health', timeout=3)"]
+      interval: 15s
+      timeout: 4s
+      start_period: 15s
+      retries: 5
+    restart: unless-stopped
+    stop_grace_period: 30s
+  web:
+    build:
+      context: ./frontend
+    init: true
+    ports:
+      - "127.0.0.1:5173:80"
+    depends_on:
+      api:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1/healthz"]
+      interval: 15s
+      timeout: 4s
+      start_period: 10s
+      retries: 5
+    restart: unless-stopped
+    stop_grace_period: 30s

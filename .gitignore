@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+# Node
+node_modules/
+dist/
+*.tsbuildinfo
+# Environment, local files
+.env
+.env.*.local
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# Runtime exports
+exports/
+
+# Local research experiment store
+backend/data/
+
+# Browser smoke test artifacts
+playwright-report/
+test-results/
+
+# SQLite backups created by the local backup tool
+backups/
+
+# Local research profiles (v2.14)
+outputs/
+
+# Extra public-repository protections
+**/.env
+**/.env.*
+!**/.env.example
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.pem
+*.p12
+*.pfx
+*.key
